@@ -111,6 +111,8 @@ body{
     border-radius: 100px;
     transition: all .2s;
     position: relative;
+
+   
     
 
 }
@@ -149,7 +151,21 @@ body{
 
 
 .btn:hover::after{
-    transform: scale(1.5);
+    transform: scalex(1.4) scaleY(1.6);
     opacity: 0;
     
+}
+
+@keyframes moveFromBottom{
+    0%{opacity: 0;
+    transform: translatey(30px);}
+    /* 80%{transform: translatey(-10px);} */
+    100%{opacity: 1;
+    transform: translatey(0);}
+}
+
+.btn-animated{
+    animation-name: moveFromBottom;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
 }
