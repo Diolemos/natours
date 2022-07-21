@@ -20,6 +20,7 @@ body{
     line-height: 1.7;
     color: #777;
     padding: 30px;
+    
 }
 
 .header{
@@ -29,8 +30,11 @@ body{
     background-position: top;
     clip-path: polygon(0 0, 100% 0,100% 75vh,0 100%);
     position: relative;
+    
 
 }
+
+
 
 .logo-box{
     position: absolute;
@@ -40,4 +44,33 @@ body{
 
 .logo{
     height: 35px;
+}
+
+.text-box{
+    position: absolute;
+    top: 40%;
+    left:50%;
+    /* in relation to itself */
+    transform: translate(-50%, -50%);
+    
+    
+}
+
+.heading-primary{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.heading-primary-main{
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 35px;
+}
+
+.heading-primary-sub{
+    display: block;
+    font-size: 20px;
+    letter-spacing: 17.4px;
+    font-weight: 700;
 }
