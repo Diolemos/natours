@@ -1,6 +1,6 @@
 .row{
 max-width: $grid-width;
-background-color: #eee;
+
 margin: 0 auto;
 color: black;
 
@@ -12,7 +12,7 @@ color: black;
   
     // selects every el which class name starts w 'col-'
 [class^="col-"]{
-background: orangered;
+
 float: left;
    &:not(:last-child){ 
     margin-right:$gutter-horizontal;
