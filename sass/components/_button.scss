@@ -54,12 +54,14 @@
 }
 
 
-
-}
-
-.btn--animated{
+&--animated{
     animation-name: moveFromBottom;
     animation-duration: 1s;
     animation-timing-function: ease-out;
+}
+
+
+
+
 }
 
