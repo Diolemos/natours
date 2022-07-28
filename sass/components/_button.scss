@@ -30,6 +30,15 @@
     
        
 }
+&--green{
+    background-color: $color-primary;
+    color: $color-text-light;
+    &:hover::after{
+        background-color: #fff;
+    }
+    
+       
+}
 
 &::after{
     content: "";
